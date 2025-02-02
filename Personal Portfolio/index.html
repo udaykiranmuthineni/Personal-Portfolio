@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+      <link rel="stylesheet" href="style.css">
+      <title>Portfolio Website</title>
+ </head>
+
+ <body>
+     <header>
+         <!-----------Nav bar-------------->
+         <a href="#" class="logo">Personal Portfolio</a>
+         <nav>
+              <a href="#" >Home</a>
+              <a href="#" >About</a>
+              <a href="#" >Project</a>
+              <a href="#" >Contact</a>
+         </nav>
+     </header>
+     <!-----------Home-------------->
+     <section class="home">
+         <div class="home-content">
+             <h1>Hi, I'm <span>Uday</span></h1>
+             <h3 class="typing-text"><span>Junior Developer</span></h3>
+             <p class="paragraph">Hi Welcome, this portfolio contains information like My perosnal details, Skills, Education and Projects.</p>
+          
+             <!-----------Socail Icons-------------->
+
+             <div class="social-icons">
+                 <a href="https://www.linkedin.com/in/uday-kiran-muthineni-5a00892b7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                 <a href="https://github.com/udaykiranmuthineni"><i class="fa-brands fa-github"></i></a>
+                 <a href="https://www.instagram.com/mr.udayvarma/?igsh=czU4eTMyMDB4a3Fj"><i class="fa-brands fa-instagram"></i></a>
+             </div>
+        
+             <!-----------About-------------->
+             <div id="about">
+                 <div class="container">
+                     <div class="row">
+                         <div class="about-col-1">
+                             <img src="images/uday.png">
+                         </div>
+                         <div class="about-col-2">
+                             <h1 class="sub-title">About Me</h1>
+                             <section class="section">
+                                 <p class="paragraph">To secure a responsible career opportunity, where I can fully utilize my training and management skills while making a significant contribution to the success of my employer. </p>
+                      
+                                 <!---------------------Personal Details------------------------>
+
+                                 <div class="tab-titles">
+                                     <p class="tab-links active-link" onclick="opentab('details')">Personal Details</p>
+                                     <p class="tab-links" onclick="opentab('education')">Education</p>
+                                     <p class="tab-links" onclick="opentab('skills')">Skills</p>
+                                 </div>
+                                 <div class="tab-contents active-tab" id="details">
+                                     <ul class="pdetails">
+                                         <li><span>Full Name : </span>Uday Kiran Muthineni</li>
+                                         <li><span>Date of Birth : </span>30/10/2003</li>
+                                         <li><span>Gender : </span>Male</li>
+                                         <li><span>Mobile No : </span>7981189952</li>
+                                         <li><span>Gmail : </span>udaykiranmuthineni123@gmail.com</li>
+                                         <li><span>Languages : </span>English, Hindi , Telugu(Native)</li>
+                                     </ul>
+                                 </div>
+                                 <!---------------------Education------------------------>
+                                 <div class="tab-contents" id="education">
+                                     <ul>
+                                         <li><span>B.Sc Computer Science</span><br>Vaagdevi Degree & P.G College - 2024<br>CGPA - 6.8%</li>
+                                         <li><span>Intermediate</span><br>Sri Vedha Junior College - 2021<br>CGPA - 5.4%</li>
+                                         <li><span>10th SSC</span><br>Saketha High School - 2018<br>GPA - 9.0%</li>
+                                     </ul>
+                                 </div>
+                                 <!---------------------Skils------------------------>
+                      
+                                 <div class="tab-contents" id="skills">
+                                     <ul>
+                                         <li><span>&#10141; </span> HTML</li>
+                                         <li><span>&#10141; </span> CSS</li>
+                                         <li><span>&#10141; </span> Core Java</li>
+                                         <li><span>&#10141; </span> SQL</li>
+                                     </ul>
+                                 </div>
+                             </section>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </section>
+     <script src="script.js"></script>
+ </body>
+</html>
